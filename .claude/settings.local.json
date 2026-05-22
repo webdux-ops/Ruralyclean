@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR>=750 && NR<=841' \"src/routes/index.tsx\")",
+      "Bash(node -e ' *)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('scripts',{}\\)\\)\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
